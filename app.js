@@ -8,6 +8,7 @@ app.get('/', function (req, res) {
 
 app.listen(process.env.PORT || 5000, function () {
   console.log("Server listening on port");  
+  console.log("I am a changed file");  
 });
 
 module.exports = app;
